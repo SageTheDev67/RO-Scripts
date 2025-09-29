@@ -57,3 +57,12 @@ if filtered_scripts:
         st.success("Copied!")
 else:
     st.warning("No scripts found or match your search.")
+
+script_folder = "scripts"
+
+if not os.path.exists(script_folder):
+    st.error("The scripts folder is missing! Please create a 'scripts/' folder with .lua files.")
+    st.stop()
+
+all_scripts = [f for f in os.listdir(script_folder) if f.endswith(".lua")]
+
