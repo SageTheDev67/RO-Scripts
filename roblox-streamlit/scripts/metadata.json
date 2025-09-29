@@ -1,12 +1,7 @@
 {
   "hello.lua": {
     "author": "Eviie",
-    "description": "A basic hello world Lua script.",
+    "description": "A basic Hello World script with a simple function.",
     "category": "Tutorial"
-  },
-  "toolkit.lua": {
-    "author": "Eviie",
-    "description": "A small toolkit for beginners.",
-    "category": "Utility"
   }
 }
